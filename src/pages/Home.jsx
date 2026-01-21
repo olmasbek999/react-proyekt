@@ -22,7 +22,9 @@ function Home() {
             </li>
             <li>Sodiqli kartasi</li>
             <li>Aloqa</li>
-            <li>Makroda ishlash</li>
+            <li>
+              <Link to="/makroishlash">Makroda ishlash</Link>
+            </li>
           </ul>
         </nav>
       </header>
@@ -63,6 +65,7 @@ function Home() {
             width="600"
             height="450"
             loading="lazy"
+            border="10px"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
       <div>

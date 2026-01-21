@@ -22,7 +22,9 @@ function Katolog() {
             </li>
             <li>Sodiqli kartasi</li>
             <li>Aloqa</li>
-            <li>Makroda ishlash</li>
+            <li>
+              <Link to="makroishlash">Makroda ishlash</Link>
+            </li>
           </ul>
         </nav>
       </header>
@@ -36,16 +38,14 @@ function Katolog() {
       <div className="flex  flex-wrap justify-center gap-20 ">
         <div className="flex flex-col items-center gap-[10px] p-[15px]  t-10 bg-green-400 rounded-lg">
           <img
-            className="w-[180px] h-[180px] object-cover"  
+            className="w-[180px] h-[180px] object-cover"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnU2Ji-k-LaKh8artm-MYPdAfVINyntR72gQ&s"
             alt=""
           />
           <h1>qazi</h1>
-          <h4>300000so'm</h4> 
+          <h4>300000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
-            <Link to="/sale">
-            Sotib olish
-            </Link>
+            <Link to="/sale">Sotib olish</Link>
           </button>
         </div>
         <div className="flex flex-col items-center gap-[10px] p-[15px]  t-10  bg-green-400 rounded-lg">
@@ -57,7 +57,7 @@ function Katolog() {
           <h1>Tovuq go'sht</h1>
           <h4>35000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
-            Sotib olish
+            <Link to="/tovuqgosht">Sotib olish</Link>
           </button>
         </div>
 
@@ -70,7 +70,7 @@ function Katolog() {
           <h1>Go'sht kg</h1>
           <h4>150000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
-           Sotib olish
+            Sotib olish
           </button>
         </div>
 
@@ -96,7 +96,7 @@ function Katolog() {
           <h1>Piyoz kg</h1>
           <h4>5000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
-            Sotib olish 
+            Sotib olish
           </button>
         </div>
 
@@ -122,7 +122,7 @@ function Katolog() {
           <h1>Tanho 500gr</h1>
           <h4>25000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
-           Sotib olish
+            Sotib olish
           </button>
         </div>
 
@@ -149,7 +149,7 @@ function Katolog() {
           <h4>5000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
             Sotib olish
-          </button> 
+          </button>
         </div>
 
         <div className="flex flex-col items-center gap-[10px] p-[15px]  t-10  bg-green-400 rounded-lg">
@@ -161,7 +161,7 @@ function Katolog() {
           <h1>Bodring kg</h1>
           <h4>35000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
-           Sotib olish
+            Sotib olish
           </button>
         </div>
 
@@ -239,7 +239,7 @@ function Katolog() {
           <h1>Fanta 1,5</h1>
           <h4>13000so'm</h4>
           <button className="p-[10px] rounded-lg border-2 cursor-pointer">
-           Sotib olish
+            Sotib olish
           </button>
         </div>
 
@@ -305,23 +305,23 @@ function Katolog() {
 
             <div className="flex gap-[50px]">
               <div className="flex bg-black text-white w-[100px] rounded-xl">
-              <Link to='https://apps.apple.com/uz/app/makro-app/id6443717445'>
-                <img
-                  className="rounded-3xl"
-                  src="https://thumbs.dreamstime.com/b/apple-logo-editorial-vector-illustration-apple-logo-editorial-vector-illustration-background-136504759.jpg"
-                  alt=""
-                />
-              </Link>
+                <Link to="https://apps.apple.com/uz/app/makro-app/id6443717445">
+                  <img
+                    className="rounded-3xl"
+                    src="https://thumbs.dreamstime.com/b/apple-logo-editorial-vector-illustration-apple-logo-editorial-vector-illustration-background-136504759.jpg"
+                    alt=""
+                  />
+                </Link>
               </div>
 
               <div className="flex bg-white text-white w-[100px]  rounded-xl ">
-               <Link to='https://play.google.com/store/apps/details?id=com.makro.hive_dart&pli=1'>
-                <img
-                  className="rounded-3xl"
-                  src="https://download.logo.wine/logo/Google_Play/Google_Play-Logo.wine.png"
-                  alt=""
-                />
-               </Link>
+                <Link to="https://play.google.com/store/apps/details?id=com.makro.hive_dart&pli=1">
+                  <img
+                    className="rounded-3xl"
+                    src="https://download.logo.wine/logo/Google_Play/Google_Play-Logo.wine.png"
+                    alt=""
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -334,7 +334,7 @@ function Katolog() {
             </div>
           </div>
         </div>
-      </footer> 
+      </footer>
     </>
   );
 }
