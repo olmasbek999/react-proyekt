@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import rasm from "./image.png";
+import { FaYoutube } from "react-icons/fa"; 
+import { FaInstagram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 function Home() {
   return (
@@ -157,8 +161,19 @@ function Home() {
             <span>
               Ijtimoiy tarmoqlarimizga <br /> obuna bo'ling
             </span>
-            <div className="flex items-center gap-[15px]">
-              <img src="" alt="" />
+            <div className="flex items-center gap-[15px] text-3xl ">
+              <Link to="https://www.youtube.com/@makrosupermarket4102">
+              <h1><FaYoutube /></h1>
+              </Link>
+              <Link to="https://www.instagram.com/makro_supermarket/">
+              <h1><FaInstagram /></h1>
+              </Link>
+              <Link to="https://t.me/makrosupermarket_uz">
+              <h1><FaTelegram /></h1>
+              </Link>
+              <Link to="https://www.facebook.com/makromarket.uz?mibextid=LQQJ4d">
+              <h1><FaFacebook /></h1>
+              </Link>
             </div>
           </div>
         </div>
